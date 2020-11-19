@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title>日程表</title>
+    <meta charset="utf-8" />
+    <script crossOrigin type="text/javascript" src="lib/react.production.min.js"></script>
+    <script crossOrigin type="text/javascript" src="lib/react-dom.production.min.js"></script>
+    <script src="lib/babel.min.js"></script>
+    <script type="text/javascript" src="lib/moment.min.js"></script>
+    <script src="lib/lodash.min.js"></script>
+    <script type="text/javascript" src="lib/antd.min.js"></script>
+    <script type="text/javascript" src="lib/axios.min.js"></script>
+    <link rel="stylesheet" href="lib/antd.min.css">
+</head>
+<style>
+    .ant-table-tbody > tr > td {
+        padding: 0;
+    }
+
+    .bclbm-fontColor-1 {
+        position: relative;
+        height: 100%;
+        padding: 0 19px;
+        box-sizing: border-box;
+        color: #48AEF5;
+    }
+
+    .bclbm-fontColor-51 {
+        position: relative;
+        height: 100%;
+        padding: 0 19px;
+        box-sizing: border-box;
+        /*color: #f2be45;*/
+    }
+
+    .rq-value-font-color {
+        color: #2f89fc;
+    }
+
+    .jlztm-bg-1 {
+        /*background-color: #FF0000;*/
+        /*border-right: 5px solid #FF0000;*/
+    }
+
+    .jlztm-bg-21 {
+        /*background-color: #FFD200;*/
+        /*border-right: 5px solid #FFD200;*/
+    }
+
+    .jlztm-bg-22 {
+        /*background-color: #1EFF00;*/
+        /*border-right: 5px solid #1EFF00;*/
+    }
+
+    .jlztm-bg-25 {
+        /*background-color: #0030FF;*/
+        /*border-right: 5px solid #0030FF;*/
+    }
+
+    .jlztm-bg-51 {
+        /*background-color: #40A7FF;*/
+        /*border-right: 5px solid #40A7FF;*/
+    }
+
+    .jlztm-bg-default {
+        /*background-color: rgb(165, 165, 165);*/
+        /*border-right: 5px solid rgb(165, 165, 165);*/
+    }
+
+    .addIcon {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        bottom: 8px;
+        right: 8px;
+    }
+
+    .exitIcon {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        bottom: 2px;
+        right: 1px;
+    }
+
+    .jlztmIcon {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 2px;
+        right: 1px;
+    }
+
+    .pure-button {
+        width: 6%;
+        height: 55px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: inline-block;
+        zoom: 1;
+        line-height: normal;
+        white-space: nowrap;
+        vertical-align: middle;
+        text-align: center;
+        cursor: pointer;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .pure-button::-moz-focus-inner {
+        padding: 0;
+        border: 0;
+    }
+
+    .pure-button-group {
+        letter-spacing: -.31em;
+        text-rendering: optimizespeed;
+    }
+
+    .opera-only :-o-prefocus, .pure-button-group {
+        word-spacing: -.43em;
+    }
+
+    .pure-button-group .pure-button {
+        letter-spacing: normal;
+        word-spacing: normal;
+        vertical-align: top;
+        text-rendering: auto;
+    }
+
+    .pure-button {
+        font-family: inherit;
+        font-size: 100%;
+        padding: .5em 1em;
+        color: #444;
+        color: rgba(0, 0, 0, .8);
+        border: 1px solid #999;
+        border: none transparent;
+        background-color: #e6e6e6;
+        text-decoration: none;
+        border-radius: 2px;
+    }
+
+    .pure-button-hover, .pure-button:focus, .pure-button:hover {
+        background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(40%, rgba(0, 0, 0, .05)), to(rgba(0, 0, 0, .1)));
+        background-image: -webkit-linear-gradient(transparent, rgba(0, 0, 0, .05) 40%, rgba(0, 0, 0, .1));
+        background-image: linear-gradient(transparent, rgba(0, 0, 0, .05) 40%, rgba(0, 0, 0, .1));
+    }
+
+    .pure-button:focus {
+        outline: 0;
+    }
+
+    .pure-button-active, .pure-button:active {
+        -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, .15) inset, 0 0 6px rgba(0, 0, 0, .2) inset;
+        box-shadow: 0 0 0 1px rgba(0, 0, 0, .15) inset, 0 0 6px rgba(0, 0, 0, .2) inset;
+        border-color: #000;
+    }
+
+    .pure-button-disabled, .pure-button-disabled:active, .pure-button-disabled:focus, .pure-button-disabled:hover, .pure-button[disabled] {
+        border: none;
+        background-image: none;
+        opacity: .4;
+        cursor: not-allowed;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        pointer-events: none;
+    }
+
+    .pure-button-hidden {
+        display: none;
+    }
+
+    .pure-button-primary, .pure-button-selected, a.pure-button-primary, a.pure-button-selected {
+        background-color: #0078e7;
+        color: #fff;
+    }
+
+    .pure-button-group .pure-button {
+        margin: 0;
+        border-radius: 0;
+        border-right: 1px solid #111;
+        border-right: 1px solid rgba(0, 0, 0, .2);
+    }
+
+    .pure-button-group .pure-button:first-child {
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    }
+
+    .pure-button-group .pure-button:last-child {
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-right: none;
+    }
+
+    .button-success,
+    .button-error,
+    .button-warning,
+    .button-secondary {
+        color: white;
+        border-radius: 4px;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    .button-success {
+        background: rgb(28, 184, 65); /* this is a green */
+    }
+
+    .button-error {
+        background: rgb(202, 60, 60); /* this is a maroon */
+    }
+
+    .button-warning {
+        background: rgb(223, 117, 20); /* this is an orange */
+    }
+
+    .button-secondary {
+        background: #4AA2FF
+    }
+
+    .ant-table-thead > tr > th {
+        padding-left: 20px;
+        font-family: "Microsoft YaHei";
+        font-size: 17px;
+        font-weight: bold;
+        color: #AA000E;
+        border-bottom: 2px solid;
+    }
+
+    .tcl_btn {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        right: 36px;
+        top: 50%;
+        margin-top: -20px;
+        background: url("lib/添加列.png") no-repeat;
+        background-size: 40px 40px;
+        border: 0;
+        cursor: pointer;
+    }
+
+    .rqfontSet {
+        font-family: "Microsoft YaHei";
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .sjdfontSet {
+        font-family: "Microsoft YaHei";
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .rcnrfontSet {
+        font-family: "Microsoft YaHei";
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .right-div {
+        position: absolute;
+        width: 200px;
+        height: 61px;
+        top: 0;
+        right: 0;
+        border-bottom: 2px solid #AA000E;
+    }
+</style>
+<body style="overflow: hidden">
+
+<div id="root" style="width: 94%;overflow: hidden"></div>
+
+<script type="text/babel">
+    // 声明代理变量
+    let pageStateEngineer;
+    // 需要进行代理的对象
+    let pageState = { status: false };
+    // 触顶数据起始条数
+    let dataToppingStartNum = 0;
+    // 触底数据起始条数
+    let dataBottomOutStartNum = 30;
+    // 横向/垂直滚动条起始位置
+    let levelPosition;
+    let verticalPosition;
+    // 监听子页面关闭，获取子页面返回的数据，以参数形式返回
+    const getSubpageData = (status) => {
+        console.log("子页面关闭");
+        pageStateEngineer.status = true;
+    };
+    // 默认列索引
+    let columnsIndex = 0;
+    // 触底/触顶次数
+    let topFrequency = 0;
+    let bottomFrequency = 0;
+    // 自定义hook,实现antd表格根据数据自动合并表格行功能
+    const App = () => {
+        const [optRecords, setOptRecords] = React.useState([]);
+        const [columns, setColumns] = React.useState([]);
+        let [tableLoadingStatus, setTableLoadingStatus] = React.useState(true);
+        // 表格合并的位置,哪一行需要展示
+        let position = 0;
+
+        //设置单元格函数
+        const tdSet = (record, rowIndex) => ({
+            //td的公共样式
+            style: {
+                height: "55px",
+                lineHeight: "55px",
+                fontWeight: "800"
+            },
+            onClick: (e) => {
+                let bclbm = e.target.tagName === "TD" ? e.target.children[0].getAttribute("data-bclbm") : e.target.getAttribute("data-bclbm");
+                let bcid = e.target.tagName === "TD" ? e.target.children[0].getAttribute("data-bcid") : e.target.getAttribute("data-bcid");
+                let bjid = e.target.tagName === "TD" ? e.target.children[0].getAttribute("data-bjid") : e.target.getAttribute("data-bjid");
+                let isDay = e.target.tagName === "TD" ? e.target.children[0].getAttribute("data-isDay") : e.target.getAttribute("data-isDay");
+                let date = record.rq;
+                let wz = null;
+                if (e.target.tagName === "TD") {
+                    wz = e.target.children[0].getAttribute("data-wz");
+                } else if (e.target.tagName === "IMG") {
+                    wz = e.target.parentElement.getAttribute("data-wz");
+                } else {
+                    wz = e.target.getAttribute("data-wz");
+                }
+                switch (bclbm) {
+                    //不做任何操作
+                    case "0":
+                        alert("状态为0点击");
+                        break;
+                    // 主体班
+                    case "1":
+                        alert("状态为1点击");
+                        break;
+                    // 非主体班
+                    case "51":
+                        alert("状态为51点击");
+                        break;
+                    // 无数据增加
+                    default:
+                        alert("增加操作")
+                        break;
+                }
+            }
+        });
+
+        //日程单元格render函数
+        const rctd_render = (value, item, index) => {
+            // 当前日程为空进行日程单元格合并显示加号
+            if(typeof value === "undefined") {
+                console.log("报错！！");
+                console.log(item);
+                return false;
+            }
+            if (Object.keys(value).length <= 1) {
+                const obj = {
+                    children: <div data-wz={value.wz}><img className="addIcon" src="lib/添加.png" alt="" /></div>,
+                    props: {
+                        rowSpan: 0
+                    }
+                };
+                // 当前行数可以被3整除就合并单元格
+                if (index % 3 === 0) {
+                    obj.props.rowSpan = 3;
+                }
+                return obj;
+            }
+            // 天事进行日程单元格合并
+            if (value.isDay) {
+                const obj = {
+                    children: pdCode(value),
+                    props: {
+                        rowSpan: 0
+                    }
+                };
+                // 当前行数可以被3整除就合并单元格
+                if (index % 3 === 0) {
+                    obj.props.rowSpan = item.rowLength;
+                }
+                return obj;
+            }
+            // 普通事件不需要合并
+            return pdCode(value);
+        };
+
+        //判断状态码来决定合并单元格的背景颜色(用高度100%方案，这方法不用)
+        const pdColor = (value) => {
+            switch (value.jlztm) {
+                // 录入
+                case 1:
+                    return "#FF0000";
+                // 录入待审
+                case 21:
+                    return "#FFD200";
+                // 在用待审
+                case 22:
+                    return "#1EFF00";
+                // 停用待审
+                case 25:
+                    return "#0030FF";
+                // 在用
+                case 51:
+                    return "#40A7FF";
+                default:
+                    return "rgb(165,165,165)";
+            }
+        };
+
+        //判断状态码来渲染td函数
+        const pdCode = (value) => {
+            // 如果为天事件就日程内容就为bcmc字段，否则就#E74C3C是kcb字段
+            if (value.isDay) {
+                value.text = value.bcmc + `${value.rs}`;
+            } else {
+                value.text = value.kcb + `${value.rs}`;
+            }
+            // 根据jlztm和bclbm来返回不同颜色的td
+            return tdBGColorSwitch(value.jlztm, value.bclbm, value);
+        };
+
+        /**
+         * 表格背景色切换
+         * @param status 状态码
+         * @param category 类别码
+         * @param value 当前单元格的值
+         * @return {JSX.Element}
+         */
+        const tdBGColorSwitch = (status, category, value) => {
+            // 不同的状态码，用不同的背景颜色来区分。
+            // 两种类别码，用不同的字体颜色来区分。1. 主体班 51. 非主体班
+            switch (status) {
+                // 录入
+                case 1:
+                    return category === 1 ?
+                        value.hasOwnProperty("cdbj") ?
+                            value.cdbj == 1 ?
+                                <div className="bclbm-fontColor-1 jlztm-bg-1" data-wz={value.wz}
+                                     data-bclbm={value.bclbm}
+                                     data-bcid={value.bcid}
+                                     data-bjid={value.bjid}
+                                     data-isDay={value.isDay}>{value.text}<br />{value.xm}<br />{value.cd}
+                                    <img className="jlztmIcon" data-bclbm='0' src="lib/录入.png" alt="" />
+                                </div>
+                                :
+                                <div className="bclbm-fontColor-1 jlztm-bg-1" data-wz={value.wz}
+                                     data-bclbm={value.bclbm}
+                                     data-bcid={value.bcid}
+                                     data-bjid={value.bjid} data-isDay={value.isDay}>{value.text}
+                                    <img className="exitIcon" data-bclbm='0' src="lib/外出.png" alt="" />
+                                    <img className="jlztmIcon" data-bclbm='0' src="lib/录入.png" alt="" />
+                                </div>
+                            :
+                            <div className="bclbm-fontColor-1 jlztm-bg-1" data-wz={value.wz} data-bclbm={value.bclbm}
+                                 data-bcid={value.bcid}
+                                 data-bjid={value.bjid}
+                                 data-isDay={value.isDay}>{value.text}
+                                <img className="jlztmIcon" data-bclbm='0' src="lib/录入.png" alt="" />
+                            </div>
+                        :
+                        value.hasOwnProperty("cdbj") ?
+                            value.cdbj == 1 ?
+                                <div className="bclbm-fontColor-51 jlztm-bg-1" data-wz={value.wz}
+                                     data-bclbm={value.bclbm}
+                                     data-bcid={value.bcid}
+                                     data-bjid={value.bjid}
+                                     data-isDay={value.isDay}>{value.text}<br />{value.xm}<br />{value.cd}
+                                    <img className="jlztmIcon" data-bclbm='0' src="lib/录入.png" alt="" />
+                                </div>
+                                :
+                                <div className="bclbm-fontColor-51 jlztm-bg-1" data-wz={value.wz}
+                                     data-bclbm={value.bclbm}
+                                     data-bcid={value.bcid}
+                                     data-bjid={value.bjid} data-isDay={value.isDay}>{value.text}
+                                    <img className="exitIcon" data-bclbm='0' src="lib/外出.png" alt="" />
+                                    <img className="jlztmIcon" data-bclbm='0' src="lib/录入.png" alt="" />
+                                </div>
+                            :
+                            <div className="bclbm-fontColor-51 jlztm-bg-1" data-wz={value.wz} data-bclbm={value.bclbm}
+                                 data-bcid={value.bcid}
+                                 data-bjid={value.bjid}
+                                 data-isDay={value.isDay}>{value.text}
+                                <img className="jlztmIcon" data-bclbm='0' src="lib/录入.png" alt="" />
+                            </div>;
+                // 录入待审
+                case 21:
+                    return category === 1 ?
+                        value.hasOwnProperty("cdbj") ?
+                            value.cdbj == 1 ?
+                                <div className="bclbm-fontColor-1 jlztm-bg-21" data-wz={value.wz}
+                                     data-bclbm={value.bclbm}
+                                     data-bcid={value.bcid}
+                                     data-bjid={value.bjid}
+                                     data-isDay={value.isDay}>{value.text}<br />{value.xm}<br />{value.cd}
+                                    <img className="jlztmIcon" data-bclbm='0' src="lib/录入待审.png" alt="" />
+                                </div>
+                                :
+                                <div className="bclbm-fontColor-1 jlztm-bg-21" data-wz={value.wz}
+                                     data-bclbm={value.bclbm}
+                                     data-bcid={value.bcid}
+                                     data-bjid={value.bjid} data-isDay={value.isDay}>{value.text}
+                                    <img className="exitIcon" data-bclbm='0' src="lib/外出.png" alt="" />
+                                    <img className="jlztmIcon" data-bclbm='0' src="lib/录入待审.png" alt="" />
+                                </div>
+                            :
+                            <div className="bclbm-fontColor-1 jlztm-bg-21" data-wz={value.wz} data-bclbm={value.bclbm}
+                                 data-bcid={value.bcid}
+                                 data-bjid={value.bjid}
+                                 data-isDay={value.isDay}>{value.text}
+                                <img className="jlztmIcon" data-bclbm='0' src="lib/录入待审.png" alt="" />
+                            </div>
+                        :
+                        value.hasOwnProperty("cdbj") ?
+                            value.cdbj == 1 ?
+                                <div className="bclbm-fontColor-51 jlztm-bg-21" data-wz={value.wz}
+                                     data-bclbm={value.bclbm}
+                                     data-bcid={value.bcid}
+                                     data-bjid={value.bjid}
+                                     data-isDay={value.isDay}>{value.text}<br />{value.xm}<br />{value.cd}
+                                    <img className="jlztmIcon" data-bclbm='0' src="lib/录入待审.png" alt="" />
+                                </div>
+                                :
+                                <div className="bclbm-fontColor-51 jlztm-bg-21" data-wz={value.wz}
+                                     data-bclbm={value.bclbm}
+                                     data-bcid={value.bcid}
+                                     data-bjid={value.bjid} data-isDay={value.isDay}>{value.text}
+                                    <img className="exitIcon" data-bclbm='0' src="lib/外出.png" alt="" />
+                                    <img className="jlztmIcon" data-bclbm='0' src="lib/录入待审.png" alt="" />
+                                </div>
+                            :
+                            <div className="bclbm-fontColor-51 jlztm-bg-21" data-wz={value.wz} data-bclbm={value.bclbm}
+                                 data-bcid={value.bcid}
+                                 data-bjid={value.bjid}
+                                 data-isDay={value.isDay}>{value.text}
+                                <img className="jlztmIcon" data-bclbm='0' src="lib/录入待审.png" alt="" />
+                            </div>;
+                // 在用待办
+                case 22:
+                    return category === 1 ?
+                        value.hasOwnProperty("cdbj") ?
+                            value.cdbj == 1 ?
+                                <div className="bclbm-fontColor-1 jlztm-bg-22" data-wz={value.wz}
+                                     data-bclbm={value.bclbm}
+                                     data-bcid={value.bcid}
+                                     data-bjid={value.bjid}
+                                     data-isDay={value.isDay}>{value.text}<br />{value.xm}<br />{value.cd}
+                                    <img className="jlztmIcon" data-bclbm='0' src="lib/在用待办.png" alt="" />
+                                </div>
+                                :
+                                <div className="bclbm-fontColor-1 jlztm-bg-22" data-wz={value.wz}
+                                     data-bclbm={value.bclbm}
+                                     data-bcid={value.bcid}
+                                     data-bjid={value.bjid} data-isDay={value.isDay}>{value.text}
+                                    <img className="exitIcon" data-bclbm='0' src="lib/外出.png" alt="" />
+                                    <img className="jlztmIcon" data-bclbm='0' src="lib/在用待办.png" alt="" />
+                                </div>
+                            :
+                            <div className="bclbm-fontColor-1 jlztm-bg-22" data-wz={value.wz} data-bclbm={value.bclbm}
+                                 data-bcid={value.bcid}
+                                 data-bjid={value.bjid}
+                                 data-isDay={value.isDay}>{value.text}
+                                <img className="jlztmIcon" data-bclbm='0' src="lib/在用待办.png" alt="" />
+                            </div>
+                        :
+                        value.hasOwnProperty("cdbj") ?
+                            value.cdbj == 1 ?
+                                <div className="bclbm-fontColor-51 jlztm-bg-22" data-wz={value.wz}
+                                     data-bclbm={value.bclbm}
+                                     data-bcid={value.bcid}
+                                     data-bjid={value.bjid}
+                                     data-isDay={value.isDay}>{value.text}<br />{value.xm}<br />{value.cd}
+                                    <img className="jlztmIcon" data-bclbm='0' src="lib/在用待办.png" alt="" />
+                                </div>
+                                :
+                                <div className="bclbm-fontColor-51 jlztm-bg-22" data-wz={value.wz}
+                                     data-bclbm={value.bclbm}
+                                     data-bcid={value.bcid}
+                                     data-bjid={value.bjid} data-isDay={value.isDay}>{value.text}
+                                    <img className="exitIcon" data-bclbm='0' src="lib/外出.png" alt="" />
+                                    <img className="jlztmIcon" data-bclbm='0' src="lib/在用待办.png" alt="" />
+                                </div>
+                            :
+                            <div className="bclbm-fontColor-51 jlztm-bg-22" data-wz={value.wz} data-bclbm={value.bclbm}
+                                 data-bcid={value.bcid}
+                                 data-bjid={value.bjid}
+                                 data-isDay={value.isDay}>{value.text}
+                                <img className="jlztmIcon" data-bclbm='0' src="lib/在用待办.png" alt="" />
+                            </div>;
+                // 停用待审
+                case 25:
+                    return category === 1 ?
+                        value.hasOwnProperty("cdbj") ?
+                            value.cdbj == 1 ?
+                                <div className="bclbm-fontColor-1 jlztm-bg-25" data-wz={value.wz}
+                                     data-bclbm={value.bclbm}
+                                     data-bcid={value.bcid}
+                                     data-bjid={value.bjid}
+                                     data-isDay={value.isDay}>{value.text}<br />{value.xm}<br />{value.cd}
+                                    <img className="jlztmIcon" data-bclbm='0' src="lib/停用待审.png" alt="" />
+                                </div>
+                                :
+                                <div className="bclbm-fontColor-1 jlztm-bg-25" data-wz={value.wz}
+                                     data-bclbm={value.bclbm}
+                                     data-bcid={value.bcid}
+                                     data-bjid={value.bjid} data-isDay={value.isDay}>{value.text}
+                                    <img className="exitIcon" data-bclbm='0' src="lib/外出.png" alt="" />
+                                    <img className="jlztmIcon" data-bclbm='0' src="lib/停用待审.png" alt="" />
+                                </div>
+                            :
+                            <div className="bclbm-fontColor-1 jlztm-bg-25" data-wz={value.wz} data-bclbm={value.bclbm}
+                                 data-bcid={value.bcid}
+                                 data-bjid={value.bjid}
+                                 data-isDay={value.isDay}>{value.text}
+                                <img className="jlztmIcon" data-bclbm='0' src="lib/停用待审.png" alt="" />
+                            </div>
+                        :
+                        value.hasOwnProperty("cdbj") ?
+                            value.cdbj == 1 ?
+                                <div className="bclbm-fontColor-51 jlztm-bg-25" data-wz={value.wz}
+                                     data-bclbm={value.bclbm}
+                                     data-bcid={value.bcid}
+                                     data-bjid={value.bjid}
+                                     data-isDay={value.isDay}>{value.text}<br />{value.xm}<br />{value.cd}
+                                    <img className="jlztmIcon" data-bclbm='0' src="lib/停用待审.png" alt="" />
+                                </div>
+                                :
+                                <div className="bclbm-fontColor-51 jlztm-bg-25" data-wz={value.wz}
+                                     data-bclbm={value.bclbm}
+                                     data-bcid={value.bcid}
+                                     data-bjid={value.bjid} data-isDay={value.isDay}>{value.text}
+                                    <img className="exitIcon" data-bclbm='0' src="lib/外出.png" alt="" />
+                                    <img className="jlztmIcon" data-bclbm='0' src="lib/停用待审.png" alt="" />
+                                </div>
+                            :
+                            <div className="bclbm-fontColor-51 jlztm-bg-25" data-wz={value.wz} data-bclbm={value.bclbm}
+                                 data-bcid={value.bcid}
+                                 data-bjid={value.bjid}
+                                 data-isDay={value.isDay}>{value.text}
+                                <img className="jlztmIcon" data-bclbm='0' src="lib/停用待审.png" alt="" />
+                            </div>;
+                // 使用中
+                case 51:
+                    return category === 1 ?
+                        value.hasOwnProperty("cdbj") ?
+                            value.cdbj == 1 ?
+                                <div className="bclbm-fontColor-1 jlztm-bg-51" data-wz={value.wz}
+                                     data-bclbm={value.bclbm}
+                                     data-bcid={value.bcid}
+                                     data-bjid={value.bjid}
+                                     data-isDay={value.isDay}>{value.text}<br />{value.xm}<br />{value.cd}
+                                    <img className="jlztmIcon" data-bclbm='0' src="lib/使用中.png" alt="" />
+                                </div>
+                                :
+                                <div className="bclbm-fontColor-1 jlztm-bg-51" data-wz={value.wz}
+                                     data-bclbm={value.bclbm}
+                                     data-bcid={value.bcid}
+                                     data-bjid={value.bjid} data-isDay={value.isDay}>{value.text}
+                                    <img className="exitIcon" data-bclbm='0' src="lib/外出.png" alt="" />
+                                    <img className="jlztmIcon" data-bclbm='0' src="lib/使用中.png" alt="" />
+                                </div>
+                            :
+                            <div className="bclbm-fontColor-1 jlztm-bg-51" data-wz={value.wz} data-bclbm={value.bclbm}
+                                 data-bcid={value.bcid}
+                                 data-bjid={value.bjid}
+                                 data-isDay={value.isDay}>{value.text}
+                                <img className="jlztmIcon" data-bclbm='0' src="lib/使用中.png" alt="" />
+                            </div>
+                        :
+                        value.hasOwnProperty("cdbj") ?
+                            value.cdbj == 1 ?
+                                <div className="bclbm-fontColor-51 jlztm-bg-51" data-wz={value.wz}
+                                     data-bclbm={value.bclbm}
+                                     data-bcid={value.bcid}
+                                     data-bjid={value.bjid}
+                                     data-isDay={value.isDay}>{value.text}<br />{value.xm}<br />{value.cd}
+                                    <img className="jlztmIcon" data-bclbm='0' src="lib/使用中.png" alt="" />
+                                </div>
+                                :
+                                <div className="bclbm-fontColor-51 jlztm-bg-51" data-wz={value.wz}
+                                     data-bclbm={value.bclbm}
+                                     data-bcid={value.bcid}
+                                     data-bjid={value.bjid} data-isDay={value.isDay}>{value.text}
+                                    <img className="exitIcon" data-bclbm='0' src="lib/外出.png" alt="" />
+                                    <img className="jlztmIcon" data-bclbm='0' src="lib/使用中.png" alt="" />
+                                </div>
+                            :
+                            <div className="bclbm-fontColor-51 jlztm-bg-51" data-wz={value.wz} data-bclbm={value.bclbm}
+                                 data-bcid={value.bcid}
+                                 data-bjid={value.bjid}
+                                 data-isDay={value.isDay}>{value.text}
+                                <img className="jlztmIcon" data-bclbm='0' src="lib/使用中.png" alt="" />
+                            </div>;
+                default:
+                    return category === 1 ?
+                        value.hasOwnProperty("cdbj") ?
+                            value.cdbj == 1 ?
+                                <div className="bclbm-fontColor-1 jlztm-bg-default" data-wz={value.wz}
+                                     data-bclbm={value.bclbm}
+                                     data-bcid={value.bcid}
+                                     data-bjid={value.bjid}
+                                     data-isDay={value.isDay}>{value.text}<br />{value.xm}<br />{value.cd}
+                                </div>
+                                :
+                                <div className="bclbm-fontColor-1 jlztm-bg-default" data-wz={value.wz}
+                                     data-bclbm={value.bclbm}
+                                     data-bcid={value.bcid}
+                                     data-bjid={value.bjid} data-isDay={value.isDay}>{value.text}<br /><img
+                                    className="exitIcon" data-bclbm='0'
+                                    src="lib/外出.png" alt="" />
+                                </div>
+                            :
+                            <div className="bclbm-fontColor-1 jlztm-bg-default" data-wz={value.wz}
+                                 data-bclbm={value.bclbm}
+                                 data-bcid={value.bcid}
+                                 data-bjid={value.bjid}
+                                 data-isDay={value.isDay}>{value.text}
+                            </div>
+                        :
+                        value.hasOwnProperty("cdbj") ?
+                            value.cdbj == 1 ?
+                                <div className="bclbm-fontColor-51 jlztm-bg-default" data-wz={value.wz}
+                                     data-bclbm={value.bclbm}
+                                     data-bcid={value.bcid}
+                                     data-bjid={value.bjid}
+                                     data-isDay={value.isDay}>{value.text}<br />{value.xm}<br />{value.cd}
+                                </div>
+                                :
+                                <div className="bclbm-fontColor-51 jlztm-bg-default" data-wz={value.wz}
+                                     data-bclbm={value.bclbm}
+                                     data-bcid={value.bcid}
+                                     data-bjid={value.bjid} data-isDay={value.isDay}>{value.text}<img
+                                    className="exitIcon" data-bclbm='0'
+                                    src="lib/外出.png"
+                                    alt="" />
+                                </div>
+                            :
+                            <div className="bclbm-fontColor-51 jlztm-bg-default" data-wz={value.wz}
+                                 data-bclbm={value.bclbm}
+                                 data-bcid={value.bcid}
+                                 data-bjid={value.bjid}
+                                 data-isDay={value.isDay}>{value.text}
+                            </div>;
+            }
+        };
+
+        //增加按钮函数
+        const btnClick = (e) => {
+            if (tableLoadingStatus) {
+                alert("表格数据尚未加载完成");
+                return false;
+            }
+            columnsIndex++;
+            let columnsObj = {
+                dataIndex: "rcnr" + (columnsIndex),
+                title: "日程内容" + columnsIndex,
+                align: "left",
+                className: "rcnrfontSet",
+                width: 189.5,
+                onCell: tdSet,
+                render: rctd_render
+            };
+            // 表格列新增一列
+            setColumns((arr => [...arr, columnsObj]));
+            // 处理表格数据
+            setOptRecords((arr) => arr.map((item) => {
+                return { ...item, ["rcnr" + columnsIndex]: { wz: columnsIndex - 1 } };
+            }));
+
+        };
+
+        // 日期单元格处理函数
+        const dateHandle = (record, rowIndex) => ({
+            onClick: (e) => {
+                if (e.target.tagName === "SPAN") {
+                    let typeName = e.target.getAttribute('data-type');
+                    if (typeName == '空闲房数') {
+                        alert("空闲房数点击");
+                        return;
+                    } else if (typeName == '空闲教室') {
+                        alert("空闲教室点击");
+                        return;
+                    } else if (typeName == '计划人数') {
+                        alert("计划人数点击")
+                        return;
+                    } else {
+                        alert("数量无法点击");
+                        return false;
+                    }
+                }
+                alert("文字点击")
+            }
+        });
+        // 表格列格式定义
+        const defaultColumns = [
+            {
+                dataIndex: "rq",
+                title: "日期",
+                align: "center",
+                fixed: "left",
+                colSpan: 2,
+                width: 140.5,
+                className: "rqfontSet",
+                onCell: dateHandle,
+                render: (value, item, index) => {
+                    const arr = value.split("-");
+                    value = arr[1] + "/" + arr[2];
+                    const obj = {
+                        children: <div data-date={item.rq}>
+                            <div data-date={item.rq}><span>{item.xq}&nbsp;&nbsp;{value}</span></div>
+                            <div data-date={item.rq}>空闲房数: <span data-type="空闲房数"
+                                                                 className="rq-value-font-color">{item.kxrs}</span>
+                            </div>
+                            <div data-date={item.rq}>空闲教室: <span data-type="空闲教室"
+                                                                 className="rq-value-font-color">{item.kxjs}</span>
+                            </div>
+                            <div data-date={item.rq}>计划人数: <span data-type="计划人数"
+                                                                 className="rq-value-font-color">{item.jhrs}</span>
+                            </div>
+                        </div>,
+                        props: {
+                            rowSpan: 0
+                        }
+                    };
+                    if (index === 0) {
+                        obj.props.rowSpan = item.rowLength;
+                        position = item.rowLength;
+                    }
+                    if (index === position) {
+                        obj.props.rowSpan = item.rowLength;
+                        position += item.rowLength;
+                    }
+                    return obj;
+                }
+            },
+            {
+                dataIndex: "sjd",
+                title: "时间段",
+                width: 70,
+                colSpan: 0,
+                fixed: "left",
+                align: "center",
+                className: "sjdfontSet",
+                render: (value, item, index) => {
+                    let v1 = value.charAt(0);
+                    let v2 = value.charAt(1);
+                    return <div>{v1}<br />{v2}</div>;
+                }
+            }
+        ];
+
+        // 后台返回的表格数据
+        let defaultData = [];
+
+        // 表格数据处理函数，计算要合并的列数
+        const handleData = (data) => {
+            if (data == null) {
+                data = defaultData;
+            }
+            let newArr = [];
+            data.map(item => {
+                if (item.children) {
+                    item.children.forEach((subItem, i) => {
+                        let obj = { ...item };
+                        Object.assign(obj, subItem);
+                        delete obj.children;
+                        obj.rowLength = item.children.length;
+                        newArr.push(obj);
+                    });
+                }
+            });
+            // console.log("处理好的表格数据");
+            // console.log(newArr);
+            // 将处理好的数据放入optRecords，使用cloneDeep进行深拷贝，触发useState的更新
+            setOptRecords(_.cloneDeep(newArr));
+        };
+
+        // 表格数据渲染函数
+        const tableDataRendering = function(res) {
+            if (typeof res.data === "string") {
+                alert("服务器错误");
+                document.querySelector(".tcl_btn").style.display = "none";
+                document.querySelector(".right-div").style.display = "none";
+                console.log(res.data);
+                return false;
+            }
+            // 清空表格列数据
+            if(defaultColumns.length > 2) {
+                // 截掉后面的多余数据
+                defaultColumns.length = 2;
+            }
+            // 赋值表格数据
+            defaultData = res.data;
+            // 获取最大子节点的key数量
+            let maxChildLength = Object.keys(defaultData[0].children[0]).length;
+            for (let i = 0; i < defaultData.length; i++) {
+                for (let j = 0; j < defaultData[i].children.length; j++) {
+                    const currentObjLength = Object.keys(defaultData[i].children[j]).length;
+                    if (currentObjLength > maxChildLength) {
+                        maxChildLength = currentObjLength;
+                    }
+                }
+            }
+
+            // 补齐缺少的节点
+            for (let i = 0; i < defaultData.length; i++) {
+                for (let j = 0; j < defaultData[i].children.length; j++) {
+                    const currentObjLength = Object.keys(defaultData[i].children[j]).length;
+                    // 当前节点的长度小于第一个子节点的长度就补齐
+                    for (let k = currentObjLength; k < maxChildLength; k++) {
+                        defaultData[i].children[j]["rcnr" + k] = {};
+                    }
+                }
+            }
+
+            // 如果存在空对象添加位置字段
+            for (let i = 0; i < defaultData.length; i++) {
+                for (let j = 0; j < defaultData[i].children.length; j++) {
+                    // 获取每天的时间段对象
+                    const item = defaultData[i].children[j];
+                    // 获取所有的key
+                    const keys = Object.keys(item);
+                    // 提取所有的日程字段
+                    for (let k = 1; k < keys.length; k++) {
+                        // 日程为空添加wz字段
+                        if (Object.keys(item[keys[k]]).length <= 1) {
+                            defaultData[i].children[j][keys[k]].wz = k - 1;
+                        }
+                    }
+                }
+            }
+
+            // 获取所有日程列字段数据
+            let rcList = Object.keys(defaultData[0].children[0]);
+            columnsIndex = rcList.length - 1;
+            // 根据日程列字段数据赋值表格列的日程字段，rcList中包含sjd所以需要1开始
+            for (let i = 1; i < rcList.length; i++) {
+                let rcnr = {
+                    dataIndex: rcList[i],
+                    title: "日程内容" + i,
+                    align: "left",
+                    width: 189.5,
+                    className: "rcnrfontSet",
+                    onCell: tdSet,
+                    render: rctd_render
+                };
+                defaultColumns.push(rcnr);
+            }
+
+            // 渲染表格数据
+            handleData(defaultData);
+            // 渲染表格列，使用cloneDeep进行深拷贝，触发useState的更新
+            setColumns(_.cloneDeep(defaultColumns));
+        };
+
+        // 代理处理函数
+        const pageStateHandler = {
+            set: function(recObj, key, value) {
+                // 表格状态改为正在加载
+                setTableLoadingStatus(true);
+                // 保留向上滑动的天数
+                let bottomTS = 0;
+                // 页面第一次向上滑动，修改位置
+                if(dataToppingStartNum !== 0 ) {
+                    bottomTS = -30;
+                }
+                // 重新请求接口，获取最新数据
+                axios.post('http://mock-api.com/mnE66LKJ.mock/getTableListData', {
+                    ts: bottomTS,
+                    ls: dataBottomOutStartNum
+                }).then(function(res) {
+                    // 数据请求成功，改变表格加载层状态
+                    setTableLoadingStatus(false);
+                    if (res.status === 200) {
+                        // 执行表格数据渲染函数
+                        tableDataRendering(res);
+                    } else {
+                        alert("服务器错误");
+                    }
+                });
+                // 修改对象属性
+                recObj[key] = value;
+                return true;
+            }
+        };
+        // 执行数据处理函数
+        React.useEffect(() => {
+            //加载时页面所有内容隐藏
+            document.querySelector(".tcl_btn").style.display = "none";
+            document.querySelector(".right-div").style.display = "none";
+            // 调用接口获取表格数据
+            axios.post('http://mock-api.com/mnE66LKJ.mock/getTableListData', {
+                ls: 0,
+                ts: 0
+            }).then(function(res) {
+                // 加载完成时页面所有内容显示
+                document.querySelector(".tcl_btn").style.display = "block";
+                document.querySelector(".right-div").style.display = "block";
+                // 数据请求成功，改变表格加载层状态
+                setTableLoadingStatus(false);
+                //创建代理，监听pageState对象改变，pageStateHandler处理变更
+                pageStateEngineer = new Proxy(pageState, pageStateHandler);
+
+                if (res.status === 200) {
+                    // 执行表格数据渲染函数
+                    tableDataRendering(res);
+                    // 横向滚动条位置
+                    levelPosition = document.querySelector(".ant-table-body").scrollLeft;
+                    // 纵向滚动条位置
+                    verticalPosition = document.querySelector(".ant-table-body").scrollTop;
+                    // 获取表格容器
+                    let antdTable = document.querySelector(".ant-table-body");
+                    //页面滚动监听
+                    antdTable.onscroll = function() {
+                        // 触底向后加载数据
+                        if (antdTable.scrollTop + antdTable.clientHeight >= antdTable.scrollHeight) {
+                            // 判断是否横向滚动
+                            if (antdTable.scrollLeft !== levelPosition) {
+                                // 更新位置
+                                levelPosition = antdTable.scrollLeft;
+                                return false;
+                            }
+                            // 第一次触底不触发数据加载
+                            if (bottomFrequency === 0) {
+                                bottomFrequency++;
+                                return false;
+                            }
+                            if (bottomFrequency > 0) {
+                                bottomFrequency = 0;
+                            }
+                            dataBottomOutStartNum += 30;
+                            // 判断已加载的数据
+                            if (dataBottomOutStartNum > 90) {
+                                alert("最多只能向后加载90天的数据");
+                                return false;
+                            }
+                            // 保留向上滑动的天数
+                            let bottomTS = 0;
+                            // 页面第一次向上滑动，修改位置
+                            if(dataToppingStartNum !== 0 ) {
+                                bottomTS = -30;
+                            }
+                            setTableLoadingStatus(true);
+                            axios.post('http://mock-api.com/mnE66LKJ.mock/getTableListData', {
+                                ts: bottomTS,
+                                ls: dataBottomOutStartNum
+                            }).then(function(res) {
+                                // 数据请求成功，改变表格加载层状态
+                                setTableLoadingStatus(false);
+                                if (res.status === 200) {
+                                    // 执行表格数据渲染函数
+                                    tableDataRendering(res);
+                                } else {
+                                    alert("服务器错误");
+                                }
+                            });
+                        }
+
+                        // 触顶向前加载数据
+                        if (antdTable.scrollTop === 0) {
+                            // 判断是否横向滚动
+                            if (antdTable.scrollLeft !== levelPosition) {
+                                // 更新位置
+                                levelPosition = antdTable.scrollLeft;
+                                return false;
+                            }
+                            // 第一次触顶不触发数据加载
+                            if (topFrequency === 0) {
+                                topFrequency++;
+                                return false;
+                            }
+                            if (topFrequency > 0) {
+                                topFrequency = 0;
+                            }
+                            dataBottomOutStartNum += 30;
+                            if (dataBottomOutStartNum > 90) {
+                                alert("最多只能向前加载90天的数据");
+                                return false;
+                            }
+                            dataToppingStartNum -= 30;
+                            setTableLoadingStatus(true);
+                            axios.post('http://mock-api.com/mnE66LKJ.mock/getTableListData', {
+                                ts: dataToppingStartNum,
+                                ls: dataBottomOutStartNum
+                            }).then(function(res) {
+                                // 数据请求成功，改变表格加载层状态
+                                setTableLoadingStatus(false);
+                                if (res.status === 200) {
+                                    // 执行表格数据渲染函数
+                                    tableDataRendering(res);
+                                } else {
+                                    alert("服务器错误");
+                                }
+                            });
+                        }
+                    };
+                } else {
+                    alert("服务器错误");
+                }
+            });
+        }, []);
+
+        return (
+            <div>
+                <antd.Table
+                    rowKey="id"
+                    pagination={false}
+                    dataSource={optRecords}
+                    bordered={true}
+                    scroll={{ y: window.innerHeight - 65, x: 1500 }}
+                    loading={tableLoadingStatus}
+                    columns={columns}
+                />
+                <div className="right-div"></div>
+                <button className="tcl_btn" onClick={btnClick}></button>
+            </div>
+        );
+    };
+    ReactDOM.render(<App />, document.getElementById("root"));
+</script>
+</body>
+</html>

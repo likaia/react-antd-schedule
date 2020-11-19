@@ -1,0 +1,8012 @@
+[
+  {
+    "rq": "2020-11-19",
+    "jhrs": 100,
+    "xq": "星期四",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {
+          "kcb": "当前没课",
+          "wz": 0,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104828,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155268
+        },
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "bclbm": 1,
+          "jlztm": 21,
+          "wz": 5,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {
+          "kcb": "当前没课",
+          "wz": 0,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155268,
+          "bcid": 440140104828,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "wz": 5,
+          "bclbm": 1,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 0,
+          "bclbm": 1,
+          "bjid": 440140155268,
+          "bcid": 440140104828,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "wz": 5,
+          "bclbm": 1,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-11-20",
+    "jhrs": 100,
+    "xq": "星期五",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {
+          "kcb": "当前没课",
+          "wz": 0,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104828,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155268
+        },
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "bclbm": 1,
+          "jlztm": 21,
+          "wz": 5,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {
+          "kcb": "当前没课",
+          "wz": 0,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155268,
+          "bcid": 440140104828,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "wz": 5,
+          "bclbm": 1,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 0,
+          "bclbm": 1,
+          "bjid": 440140155268,
+          "bcid": 440140104828,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "wz": 5,
+          "bclbm": 1,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-11-21",
+    "jhrs": 100,
+    "xq": "星期六",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {
+          "kcb": "当前没课",
+          "wz": 0,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104828,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155268
+        },
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "bclbm": 1,
+          "jlztm": 21,
+          "wz": 5,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {
+          "kcb": "当前没课",
+          "wz": 0,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155268,
+          "bcid": 440140104828,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "wz": 5,
+          "bclbm": 1,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 0,
+          "bclbm": 1,
+          "bjid": 440140155268,
+          "bcid": 440140104828,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "wz": 5,
+          "bclbm": 1,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-11-22",
+    "jhrs": 100,
+    "xq": "星期日",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {
+          "kcb": "当前没课",
+          "wz": 0,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104828,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155268
+        },
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "bclbm": 1,
+          "jlztm": 21,
+          "wz": 5,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {
+          "kcb": "当前没课",
+          "wz": 0,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155268,
+          "bcid": 440140104828,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "wz": 5,
+          "bclbm": 1,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 0,
+          "bclbm": 1,
+          "bjid": 440140155268,
+          "bcid": 440140104828,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "wz": 5,
+          "bclbm": 1,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-11-23",
+    "jhrs": 100,
+    "xq": "星期一",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {
+          "kcb": "当前没课",
+          "wz": 0,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104828,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155268
+        },
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "bclbm": 1,
+          "jlztm": 21,
+          "wz": 5,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {
+          "kcb": "当前没课",
+          "wz": 0,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155268,
+          "bcid": 440140104828,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "wz": 5,
+          "bclbm": 1,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 0,
+          "bclbm": 1,
+          "bjid": 440140155268,
+          "bcid": 440140104828,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "wz": 5,
+          "bclbm": 1,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-11-24",
+    "jhrs": 100,
+    "xq": "星期二",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {
+          "kcb": "当前没课",
+          "wz": 0,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104828,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155268
+        },
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "bclbm": 1,
+          "jlztm": 21,
+          "wz": 5,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {
+          "kcb": "当前没课",
+          "wz": 0,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155268,
+          "bcid": 440140104828,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "wz": 5,
+          "bclbm": 1,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 0,
+          "bclbm": 1,
+          "bjid": 440140155268,
+          "bcid": 440140104828,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "wz": 5,
+          "bclbm": 1,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-11-25",
+    "jhrs": 100,
+    "xq": "星期三",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {
+          "kcb": "当前没课",
+          "wz": 0,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104828,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155268
+        },
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "bclbm": 1,
+          "jlztm": 21,
+          "wz": 5,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {
+          "kcb": "当前没课",
+          "wz": 0,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155268,
+          "bcid": 440140104828,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "wz": 5,
+          "bclbm": 1,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 0,
+          "bclbm": 1,
+          "bjid": 440140155268,
+          "bcid": 440140104828,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "wz": 5,
+          "bclbm": 1,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-11-26",
+    "jhrs": 100,
+    "xq": "星期四",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {
+          "kcb": "当前没课",
+          "wz": 0,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104828,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155268
+        },
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "bclbm": 1,
+          "jlztm": 21,
+          "wz": 5,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {
+          "kcb": "当前没课",
+          "wz": 0,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155268,
+          "bcid": 440140104828,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "wz": 5,
+          "bclbm": 1,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 0,
+          "bclbm": 1,
+          "bjid": 440140155268,
+          "bcid": 440140104828,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "wz": 5,
+          "bclbm": 1,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-11-27",
+    "jhrs": 100,
+    "xq": "星期五",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "bclbm": 1,
+          "jlztm": 21,
+          "wz": 5,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "wz": 5,
+          "bclbm": 1,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {
+          "bcmc": "20201106日程测试",
+          "bcid": 440140104829,
+          "wz": 5,
+          "bclbm": 1,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-11-28",
+    "jhrs": 100,
+    "xq": "星期六",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-11-29",
+    "jhrs": 100,
+    "xq": "星期日",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-11-30",
+    "jhrs": 100,
+    "xq": "星期一",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-12-01",
+    "jhrs": 100,
+    "xq": "星期二",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-12-02",
+    "jhrs": 100,
+    "xq": "星期三",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 999,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "wz": 999,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "wz": 999,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-12-03",
+    "jhrs": 100,
+    "xq": "星期四",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 999,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "wz": 999,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "wz": 999,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-12-04",
+    "jhrs": 100,
+    "xq": "星期五",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 999,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "wz": 999,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "wz": 999,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-12-05",
+    "jhrs": 100,
+    "xq": "星期六",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 999,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "wz": 999,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "wz": 999,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-12-06",
+    "jhrs": 100,
+    "xq": "星期日",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 999,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "wz": 999,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "wz": 999,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-12-07",
+    "jhrs": 100,
+    "xq": "星期一",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 999,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "wz": 999,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "wz": 999,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-12-08",
+    "jhrs": 100,
+    "xq": "星期二",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 999,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "wz": 999,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "wz": 999,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-12-09",
+    "jhrs": 100,
+    "xq": "星期三",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 999,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "wz": 999,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "wz": 999,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-12-10",
+    "jhrs": 100,
+    "xq": "星期四",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 999,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "wz": 999,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "wz": 999,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-12-11",
+    "jhrs": 100,
+    "xq": "星期五",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 999,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "wz": 999,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr13": {
+          "bcmc": "cdc",
+          "bcid": 440140104832,
+          "wz": 999,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-12-12",
+    "jhrs": 100,
+    "xq": "星期六",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-12-13",
+    "jhrs": 100,
+    "xq": "星期日",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-12-14",
+    "jhrs": 100,
+    "xq": "星期一",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-12-15",
+    "jhrs": 100,
+    "xq": "星期二",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-12-16",
+    "jhrs": 100,
+    "xq": "星期三",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-12-17",
+    "jhrs": 100,
+    "xq": "星期四",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  },
+  {
+    "rq": "2020-12-18",
+    "jhrs": 100,
+    "xq": "星期五",
+    "zs": "658",
+    "rzrs": "0",
+    "kxrs": "654",
+    "kxjs": "49",
+    "children": [
+      {
+        "sjd": "上午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140155243
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 4,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 6,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0,
+          "bjid": 440140154910
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 9,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "bclbm": 51,
+          "jlztm": 21,
+          "wz": 10,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "bclbm": 51,
+          "jlztm": 1,
+          "wz": 11,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "下午",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "wz": 1,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "wz": 7,
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      },
+      {
+        "sjd": "晚上",
+        "rcnr1": {},
+        "rcnr2": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 1,
+          "bclbm": 1,
+          "bjid": 440140155243,
+          "bcid": 440140104803,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr3": {},
+        "rcnr4": {},
+        "rcnr5": {
+          "bcmc": "测试app02",
+          "bcid": 440140104809,
+          "wz": 4,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr6": {},
+        "rcnr7": {
+          "bcmc": "测试app端审核班次001",
+          "bcid": 440140104808,
+          "wz": 6,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 50
+        },
+        "rcnr8": {
+          "kcb": "当前没课",
+          "xm": "",
+          "cd": "",
+          "cdbj": "0",
+          "wz": 7,
+          "bclbm": 1,
+          "bjid": 440140154910,
+          "bcid": 440140104490,
+          "isDay": false,
+          "rs": 0
+        },
+        "rcnr9": {},
+        "rcnr10": {
+          "bcmc": "测试app端审核班次003",
+          "bcid": 440140104810,
+          "wz": 9,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr11": {
+          "bcmc": "测试app端审核对外培训班次02",
+          "bcid": 440140104807,
+          "wz": 10,
+          "bclbm": 51,
+          "jlztm": 21,
+          "isDay": true,
+          "rs": 0
+        },
+        "rcnr12": {
+          "bcmc": "测试",
+          "bcid": 440140104742,
+          "wz": 11,
+          "bclbm": 51,
+          "jlztm": 1,
+          "isDay": true,
+          "rs": 0
+        }
+      }
+    ]
+  }
+]
